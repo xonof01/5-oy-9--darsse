@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1720682543~exp=1720683143~hmac=08dc1d42cdd7133db665237522cef30a3336d06d8f2c1687776b3ce8cfc75fde);
+  background-position: center;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.container {
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(219, 219, 219, 0.597);
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-right: 50px;
+  width: 384px;
+  height: 400px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+input {
+  background-color: transparent;
+  padding: 13px 10px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  width: 274px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(208, 208, 208);
+}
+.heading {
+  font-weight: 600;
+}
+.div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chk {
+  width: 10px;
+}
+.log-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 0px;
+  width: 304px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(208, 208, 208);
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
